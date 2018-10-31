@@ -19,7 +19,7 @@ def add_student(student, grade)
 end
  
   def grade(num)
-    @roster.select!(num)
+    @roster.each { |name, grade| 
   end
     
 def sort 
