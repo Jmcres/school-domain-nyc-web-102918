@@ -20,7 +20,7 @@ end
  
   def grade(grades)
     @roster.each {|key, value| 
-      if @roster.include?(value)}
+      if @roster.include?(grades)}
   end
     
 def sort 
