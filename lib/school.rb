@@ -19,9 +19,8 @@ def add_student(student, grades)
 end
  
   def grade(grades)
-    @grades = grades
-    @roster.each do |name, grade| if grade == grades 
-    @roster[name]
+    @roster.each do |key, value| 
+      if @roster.include?(value)
   end
     
 def sort 
