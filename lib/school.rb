@@ -20,7 +20,7 @@ end
  
   def grade(grades)
     @grades = grades
-    @rostereach do |name,grade| if
+    @rostereach do |name, grade| if
   end
     
 def sort 
