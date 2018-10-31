@@ -20,7 +20,7 @@ end
  
   def grade(grades)
     @grades = grades
-    @roster.select { |key, value| value == grades } 
+    @rostereach do |name,grade| if
   end
     
 def sort 
