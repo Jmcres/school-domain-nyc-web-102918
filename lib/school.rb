@@ -19,7 +19,7 @@ def add_student(student, grade)
 end
  
   def grade(num)
-    @roster.select { |name, grade| grade.include?(num)} 
+    @roster..select { |key, value| value == num } 
   end
     
 def sort 
