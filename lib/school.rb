@@ -18,8 +18,9 @@ def add_student(student, grade)
  @roster[grade]<< student
 end
  
-  def grade(num)
-    @roster..select { |key, value| value == num } 
+  def get_grade(grade)
+    @grade = grade
+    @roster..select { |key, value| value == grade } 
   end
     
 def sort 
