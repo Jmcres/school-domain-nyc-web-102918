@@ -20,7 +20,8 @@ end
  
   def grade(grades)
     @grades = grades
-    @rostereach do |name, grade| if
+    @roster.each do |name, grade| if grade == grades 
+    @roster[name]
   end
     
 def sort 
