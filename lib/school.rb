@@ -9,18 +9,18 @@ def roster
   @roster
 end
 
-def add_student(student, grade)
+def add_student(student, grades)
  @student = student
- @grade = grade
- if @roster.include?(grade)== false 
-   @roster[grade] = []
+ @grades = grades
+ if @roster.include?(grades)== false 
+   @roster[grades] = []
  end 
- @roster[grade]<< student
+ @roster[grades]<< student
 end
  
-  def get_grade(grade)
-    @grade = grade
-    @roster..select { |key, value| value == grade } 
+  def grade(grades)
+    @grades = grades
+    @roster..select { |key, value| value == grades } 
   end
     
 def sort 
