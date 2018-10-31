@@ -19,6 +19,8 @@ def add_student(student, grade)
 end
  
   def grade(num)
+    @roster.select!(num)
+  end
     
 def sort 
   @roster.each {|k,v|
